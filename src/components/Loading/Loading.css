@@ -1,0 +1,24 @@
+.loading {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    animation: loading 0.9s infinite;
+}
+
+.loading-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #1a191a;
+}
+
+@keyframes loading {
+    from {
+        opacity: 0;
+        transform: rotate(0deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotate(360deg);
+    }
+}

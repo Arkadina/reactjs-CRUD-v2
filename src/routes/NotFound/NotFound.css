@@ -1,0 +1,13 @@
+.notfound {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.notfound h1,
+h2,
+p {
+    margin: 5px;
+}
