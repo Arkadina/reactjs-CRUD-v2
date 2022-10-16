@@ -23,7 +23,7 @@ firebase (@8.3.2), react-router-dom, redux & react-redux.
 
 ## Start server
 
-Set up your firebase config _("./src/config/firebaseConfig.js")_ and execute
+Set up your firebase config _("./src/config/firebaseConfig.js")_ and execute:
 
 ```bash
   npm install
